@@ -82,6 +82,8 @@ def metrics():
 	# 	if avg_item_rating[i] > 0:
 	# 		print "item %d rating %f" %(i , avg_item_rating[i])
 
+
+#Returns similarity between two items that a user has rated
 def PearsonCorrelation(xitem , yitem):
 	numerator = 0
 	fden = 0
@@ -128,11 +130,14 @@ def IICF(user , item):
 	# print d
 	return WeightedSum(d , user)
 
+
+#The test function produces random points in the data matrice and predicts the rating that the algorithm would give it and compares it to the actual rating
+#Prediction is considered to be accurate if it has a maximum absolute error of 1
 def test():
 	correct = float(0)
 	incorrect = float(0)
 	counter = 0
-	while counter < 100:
+	while counter < 500:
 		# print "counter %d" %(counter)
 		x = int(random.random() * 500)
 		y = int(random.random() * 500)
@@ -142,7 +147,11 @@ def test():
 		rating =  IICF(x , y)
 		if rating >= 1:
 			counter += 1
+			# print "before %f" %(rating)
 			r = int(rating)
+			if rating - r >= 0.5:
+				r += 1
+			# print "after %d" %(r)
 			print "Predicting %d %d" %(x , y)
 			print "Predicted %d Actual %d " %(r , matrix[x][y])
 			if abs(r - matrix[x][y]) <= 1:
@@ -152,10 +161,15 @@ def test():
 				incorrect += 1
 
 	incorrect += correct
+	correct *= 100
 	if incorrect > 0:
-		print "Accuracy %f" %(correct / incorrect)
+		print "Accuracy Percentage %f" %(correct / incorrect)
+
+def main():
+	read()
+	metrics()
+	test()
 
 
-read()
-metrics()
-test()
+if __name__ == '__main__':
+	main()
