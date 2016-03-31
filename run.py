@@ -10,6 +10,7 @@ voted = {}
 
 matrix = [[0 for _ in range(1700)] for _ in range(1000)]
 avg_item_rating = []
+avg_user_rating = []
 
 def read():
 	starting_time = time.time()
@@ -49,7 +50,6 @@ def read():
 	# 	print ""
 
 def metrics():
-	avg_user_rating = []
 	for i in range(len(matrix)):
 		sum = 0
 		n = 0
@@ -84,7 +84,7 @@ def metrics():
 
 
 #Returns similarity between two items that a user has rated
-def PearsonCorrelation(xitem , yitem):
+def ItemPearsonCorrelation(xitem , yitem):
 	numerator = 0
 	fden = 0
 	sden = 0
@@ -103,13 +103,44 @@ def PearsonCorrelation(xitem , yitem):
 		return 0
 	return (numerator / denominator)
 
+#Returns similarity between two users 
+def UserPearsonCorrelation(xuser , yuser):
+	numerator = 0
+	fden = 0
+	sden = 0
+	for i in range(len(matrix[0])):
+		if matrix[xuser][i] > 0 and matrix[yuser][i] > 0:
+			a  = (matrix[xuser][i] - avg_user_rating[xuser])
+			fden += a * a
+			b = (matrix[yuser][i] - avg_user_rating[yuser])
+			sden += b * b
+			numerator += a * b
 
-def WeightedSum(points , user):
+	fden = math.sqrt(fden)
+	sden = math.sqrt(sden)
+	denominator = fden * sden
+	if denominator == 0:
+		return 0
+	return (numerator / denominator)
+
+
+
+def ItemWeightedSum(points , user):
 	numerator = 0
 	denominator = 0
-	for i in range(min(30 , len(points))):
+	for i in range(min(7 , len(points))):
 		# print "%f %d " %(points[i][0] , points[i][1])
 		numerator += points[i][0] * matrix[user][points[i][1]] 
+		denominator += abs(points[i][0])
+	if denominator == 0:
+		return 0
+	return numerator / denominator
+
+def UserWeightedSum(points , item):
+	numerator = 0
+	denominator = 0
+	for i in range(min(7 , len(points))):
+		numerator += points[i][0] * matrix[points[i][1]][item]
 		denominator += abs(points[i][0])
 	if denominator == 0:
 		return 0
@@ -123,13 +154,22 @@ def IICF(user , item):
 	d = []
 	for j in range(len(matrix[user])):
 		if j != item and matrix[user][j] > 0:
-			d.append( (PearsonCorrelation(j , item) , j) )
+			d.append( (ItemPearsonCorrelation(j , item) , j) )
 		#append a tuple <distance , iid>
 	# print ("movies voted by %d is %d" %(user , len(d)) )
 	d.sort(reverse = True)
 	# print d
-	return WeightedSum(d , user)
+	return ItemWeightedSum(d , user)
 
+
+#User-User Collaborative Filtering
+def UUCF(user , item):
+	rated_users = []	#list of all users that have rated "item"
+	for i in range(len(matrix)):
+		if matrix[i][item] > 0 and i != user:
+			rated_users.append( ( UserPearsonCorrelation(user , i) , i ) )
+	rated_users.sort(reverse = True)
+	return UserWeightedSum(rated_users , item)			
 
 #The test function produces random points in the data matrice and predicts the rating that the algorithm would give it and compares it to the actual rating
 #Prediction is considered to be accurate if it has a maximum absolute error of 1
@@ -137,6 +177,7 @@ def test():
 	correct = float(0)
 	incorrect = float(0)
 	counter = 0
+	invalid = 0
 	while counter < 500:
 		# print "counter %d" %(counter)
 		x = int(random.random() * 500)
@@ -144,8 +185,8 @@ def test():
 
 		if matrix[x][y] == 0:
 			continue
-		rating =  IICF(x , y)
-		if rating >= 1:
+		rating =  UUCF(x , y)
+		if rating >= 0.5:
 			counter += 1
 			# print "before %f" %(rating)
 			r = int(rating)
@@ -160,11 +201,13 @@ def test():
 			else:
 				incorrect += 1
 
+		else:
+			invalid += 1
 	incorrect += correct
 	correct *= 100
 	if incorrect > 0:
 		print "Accuracy Percentage %f" %(correct / incorrect)
-
+	print "Invalid entries %d" %(invalid)
 def main():
 	read()
 	metrics()
