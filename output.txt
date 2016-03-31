@@ -1,0 +1,1001 @@
+Predicting 268 391
+Predicted 3 Actual 3 
+Predicting 92 92
+Predicted 3 Actual 4 
+Predicting 447 234
+Predicted 4 Actual 4 
+Predicting 347 435
+Predicted 4 Actual 5 
+Predicting 13 161
+Predicted 4 Actual 5 
+Predicting 311 188
+Predicted 4 Actual 4 
+Predicting 499 486
+Predicted 3 Actual 3 
+Predicting 385 18
+Predicted 4 Actual 5 
+Predicting 166 347
+Predicted 4 Actual 5 
+Predicting 296 301
+Predicted 5 Actual 5 
+Predicting 357 294
+Predicted 4 Actual 4 
+Predicting 85 170
+Predicted 4 Actual 4 
+Predicting 64 196
+Predicted 4 Actual 4 
+Predicting 447 147
+Predicted 4 Actual 4 
+Predicting 72 356
+Predicted 4 Actual 4 
+Predicting 178 155
+Predicted 4 Actual 4 
+Predicting 409 180
+Predicted 4 Actual 5 
+Predicting 305 215
+Predicted 2 Actual 2 
+Predicting 345 461
+Predicted 3 Actual 3 
+Predicting 169 443
+Predicted 4 Actual 4 
+Predicting 345 181
+Predicted 4 Actual 4 
+Predicting 188 211
+Predicted 3 Actual 4 
+Predicting 284 259
+Predicted 3 Actual 2 
+Predicting 436 313
+Predicted 4 Actual 5 
+Predicting 332 230
+Predicted 4 Actual 5 
+Predicting 441 300
+Predicted 4 Actual 3 
+Predicting 296 475
+Predicted 4 Actual 4 
+Predicting 391 238
+Predicted 4 Actual 5 
+Predicting 395 118
+Predicted 3 Actual 3 
+Predicting 71 197
+Predicted 4 Actual 5 
+Predicting 386 273
+Predicted 4 Actual 3 
+Predicting 46 181
+Predicted 4 Actual 4 
+Predicting 253 89
+Predicted 4 Actual 4 
+Predicting 148 209
+Predicted 5 Actual 5 
+Predicting 207 242
+Predicted 3 Actual 4 
+Predicting 488 321
+Predicted 3 Actual 3 
+Predicting 389 8
+Predicted 3 Actual 4 
+Predicting 458 20
+Predicted 4 Actual 4 
+Predicting 445 93
+Predicted 1 Actual 1 
+Predicting 5 411
+Predicted 1 Actual 1 
+Predicting 324 150
+Predicted 5 Actual 4 
+Predicting 342 197
+Predicted 4 Actual 4 
+Predicting 435 234
+Predicted 3 Actual 4 
+Predicting 393 94
+Predicted 3 Actual 4 
+Predicting 234 45
+Predicted 3 Actual 4 
+Predicting 158 252
+Predicted 4 Actual 3 
+Predicting 188 474
+Predicted 4 Actual 4 
+Predicting 110 226
+Predicted 2 Actual 3 
+Predicting 195 373
+Predicted 3 Actual 3 
+Predicting 198 181
+Predicted 4 Actual 4 
+Predicting 454 465
+Predicted 3 Actual 3 
+Predicting 429 403
+Predicted 3 Actual 4 
+Predicting 1 115
+Predicted 5 Actual 5 
+Predicting 332 7
+Predicted 4 Actual 4 
+Predicting 195 407
+Predicted 2 Actual 2 
+Predicting 70 419
+Predicted 4 Actual 5 
+Predicting 455 24
+Predicted 3 Actual 3 
+Predicting 288 202
+Predicted 5 Actual 5 
+Predicting 486 304
+Predicted 3 Actual 3 
+Predicting 82 418
+Predicted 2 Actual 4 
+Predicting 56 111
+Predicted 3 Actual 2 
+Predicting 102 319
+Predicted 3 Actual 4 
+Predicting 352 195
+Predicted 4 Actual 4 
+Predicting 178 214
+Predicted 2 Actual 1 
+Predicting 308 199
+Predicted 4 Actual 4 
+Predicting 56 449
+Predicted 3 Actual 5 
+Predicting 72 210
+Predicted 3 Actual 4 
+Predicting 226 150
+Predicted 4 Actual 4 
+Predicting 403 151
+Predicted 3 Actual 4 
+Predicting 347 363
+Predicted 1 Actual 1 
+Predicting 119 182
+Predicted 4 Actual 4 
+Predicting 161 50
+Predicted 2 Actual 2 
+Predicting 472 323
+Predicted 4 Actual 4 
+Predicting 49 123
+Predicted 2 Actual 1 
+Predicting 494 100
+Predicted 5 Actual 5 
+Predicting 426 289
+Predicted 4 Actual 2 
+Predicting 13 393
+Predicted 2 Actual 3 
+Predicting 151 436
+Predicted 3 Actual 3 
+Predicting 303 452
+Predicted 2 Actual 2 
+Predicting 407 71
+Predicted 4 Actual 3 
+Predicting 158 216
+Predicted 4 Actual 3 
+Predicting 278 302
+Predicted 4 Actual 3 
+Predicting 334 345
+Predicted 3 Actual 2 
+Predicting 145 333
+Predicted 2 Actual 2 
+Predicting 331 32
+Predicted 3 Actual 4 
+Predicting 478 72
+Predicted 1 Actual 1 
+Predicting 100 323
+Predicted 3 Actual 3 
+Predicting 60 218
+Predicted 4 Actual 4 
+Predicting 7 31
+Predicted 3 Actual 4 
+Predicting 301 357
+Predicted 4 Actual 5 
+Predicting 474 213
+Predicted 4 Actual 4 
+Predicting 158 290
+Predicted 4 Actual 4 
+Predicting 279 28
+Predicted 1 Actual 2 
+Predicting 398 493
+Predicted 4 Actual 5 
+Predicting 184 252
+Predicted 3 Actual 2 
+Predicting 450 67
+Predicted 3 Actual 3 
+Predicting 390 126
+Predicted 4 Actual 5 
+Predicting 133 322
+Predicted 3 Actual 2 
+Predicting 452 134
+Predicted 2 Actual 3 
+Predicting 363 451
+Predicted 3 Actual 2 
+Predicting 463 271
+Predicted 1 Actual 1 
+Predicting 308 254
+Predicted 3 Actual 2 
+Predicting 449 122
+Predicted 4 Actual 1 
+Predicting 458 237
+Predicted 3 Actual 4 
+Predicting 263 496
+Predicted 4 Actual 5 
+Predicting 342 132
+Predicted 4 Actual 5 
+Predicting 414 313
+Predicted 4 Actual 4 
+Predicting 178 1
+Predicted 3 Actual 4 
+Predicting 11 175
+Predicted 4 Actual 3 
+Predicting 305 427
+Predicted 4 Actual 5 
+Predicting 361 430
+Predicted 4 Actual 5 
+Predicting 450 213
+Predicted 3 Actual 4 
+Predicting 327 93
+Predicted 4 Actual 4 
+Predicting 200 132
+Predicted 3 Actual 5 
+Predicting 357 407
+Predicted 3 Actual 3 
+Predicting 144 405
+Predicted 4 Actual 4 
+Predicting 459 120
+Predicted 3 Actual 2 
+Predicting 288 269
+Predicted 4 Actual 5 
+Predicting 454 69
+Predicted 3 Actual 4 
+Predicting 399 332
+Predicted 3 Actual 3 
+Predicting 243 162
+Predicted 4 Actual 4 
+Predicting 201 265
+Predicted 2 Actual 3 
+Predicting 137 476
+Predicted 4 Actual 1 
+Predicting 451 457
+Predicted 2 Actual 2 
+Predicting 275 174
+Predicted 4 Actual 4 
+Predicting 69 12
+Predicted 5 Actual 5 
+Predicting 463 21
+Predicted 1 Actual 1 
+Predicting 260 258
+Predicted 5 Actual 3 
+Predicting 315 286
+Predicted 4 Actual 5 
+Predicting 89 212
+Predicted 4 Actual 3 
+Predicting 1 160
+Predicted 4 Actual 4 
+Predicting 134 286
+Predicted 4 Actual 3 
+Predicting 85 162
+Predicted 3 Actual 2 
+Predicting 234 233
+Predicted 3 Actual 2 
+Predicting 435 386
+Predicted 3 Actual 4 
+Predicting 151 275
+Predicted 5 Actual 5 
+Predicting 363 148
+Predicted 2 Actual 3 
+Predicting 143 328
+Predicted 4 Actual 4 
+Predicting 408 328
+Predicted 3 Actual 2 
+Predicting 308 9
+Predicted 4 Actual 4 
+Predicting 279 291
+Predicted 2 Actual 3 
+Predicting 296 297
+Predicted 4 Actual 4 
+Predicting 148 89
+Predicted 5 Actual 5 
+Predicting 372 148
+Predicted 4 Actual 5 
+Predicting 243 125
+Predicted 3 Actual 3 
+Predicting 455 22
+Predicted 3 Actual 4 
+Predicting 58 194
+Predicted 3 Actual 3 
+Predicting 280 1
+Predicted 4 Actual 4 
+Predicting 406 488
+Predicted 3 Actual 4 
+Predicting 136 204
+Predicted 4 Actual 4 
+Predicting 126 313
+Predicted 4 Actual 5 
+Predicting 256 121
+Predicted 4 Actual 5 
+Predicting 405 176
+Predicted 1 Actual 1 
+Predicting 291 123
+Predicted 3 Actual 4 
+Predicting 89 25
+Predicted 4 Actual 5 
+Predicting 70 338
+Predicted 3 Actual 2 
+Predicting 142 338
+Predicted 4 Actual 2 
+Predicting 296 427
+Predicted 5 Actual 5 
+Predicting 18 236
+Predicted 3 Actual 3 
+Predicting 223 155
+Predicted 4 Actual 5 
+Predicting 184 15
+Predicted 3 Actual 3 
+Predicting 457 462
+Predicted 4 Actual 5 
+Predicting 201 186
+Predicted 2 Actual 3 
+Predicting 49 85
+Predicted 3 Actual 3 
+Predicting 151 482
+Predicted 4 Actual 4 
+Predicting 450 480
+Predicted 3 Actual 4 
+Predicting 311 213
+Predicted 3 Actual 4 
+Predicting 345 291
+Predicted 3 Actual 3 
+Predicting 456 182
+Predicted 3 Actual 3 
+Predicting 271 265
+Predicted 3 Actual 5 
+Predicting 435 245
+Predicted 2 Actual 2 
+Predicting 489 358
+Predicted 4 Actual 5 
+Predicting 60 286
+Predicted 4 Actual 5 
+Predicting 452 86
+Predicted 4 Actual 4 
+Predicting 314 470
+Predicted 3 Actual 3 
+Predicting 268 288
+Predicted 2 Actual 4 
+Predicting 325 180
+Predicted 4 Actual 4 
+Predicting 313 414
+Predicted 3 Actual 3 
+Predicting 183 250
+Predicted 3 Actual 2 
+Predicting 363 271
+Predicted 3 Actual 4 
+Predicting 187 433
+Predicted 4 Actual 4 
+Predicting 223 248
+Predicted 2 Actual 1 
+Predicting 460 301
+Predicted 3 Actual 3 
+Predicting 321 493
+Predicted 3 Actual 4 
+Predicting 294 313
+Predicted 3 Actual 5 
+Predicting 98 25
+Predicted 3 Actual 5 
+Predicting 42 97
+Predicted 3 Actual 3 
+Predicting 14 275
+Predicted 4 Actual 4 
+Predicting 433 205
+Predicted 2 Actual 3 
+Predicting 481 216
+Predicted 4 Actual 5 
+Predicting 166 288
+Predicted 4 Actual 3 
+Predicting 281 331
+Predicted 3 Actual 3 
+Predicting 248 50
+Predicted 4 Actual 5 
+Predicting 87 202
+Predicted 3 Actual 5 
+Predicting 253 190
+Predicted 4 Actual 5 
+Predicting 200 276
+Predicted 3 Actual 5 
+Predicting 62 22
+Predicted 3 Actual 4 
+Predicting 447 91
+Predicted 3 Actual 4 
+Predicting 373 105
+Predicted 3 Actual 3 
+Predicting 224 223
+Predicted 2 Actual 3 
+Predicting 95 386
+Predicted 2 Actual 2 
+Predicting 78 257
+Predicted 3 Actual 4 
+Predicting 303 78
+Predicted 3 Actual 2 
+Predicting 222 94
+Predicted 1 Actual 3 
+Predicting 267 17
+Predicted 4 Actual 4 
+Predicting 18 488
+Predicted 3 Actual 3 
+Predicting 201 231
+Predicted 2 Actual 2 
+Predicting 135 233
+Predicted 3 Actual 3 
+Predicting 409 322
+Predicted 2 Actual 2 
+Predicting 138 15
+Predicted 4 Actual 4 
+Predicting 457 94
+Predicted 3 Actual 3 
+Predicting 387 136
+Predicted 2 Actual 3 
+Predicting 174 162
+Predicted 4 Actual 5 
+Predicting 425 288
+Predicted 3 Actual 5 
+Predicting 194 218
+Predicted 2 Actual 4 
+Predicting 307 81
+Predicted 4 Actual 5 
+Predicting 132 56
+Predicted 4 Actual 5 
+Predicting 210 443
+Predicted 4 Actual 4 
+Predicting 94 219
+Predicted 4 Actual 4 
+Predicting 54 405
+Predicted 4 Actual 4 
+Predicting 442 98
+Predicted 3 Actual 4 
+Predicting 416 305
+Predicted 2 Actual 3 
+Predicting 295 318
+Predicted 4 Actual 5 
+Predicting 13 258
+Predicted 3 Actual 4 
+Predicting 419 1
+Predicted 4 Actual 4 
+Predicting 385 145
+Predicted 3 Actual 1 
+Predicting 83 95
+Predicted 3 Actual 4 
+Predicting 394 31
+Predicted 3 Actual 3 
+Predicting 489 316
+Predicted 4 Actual 5 
+Predicting 90 218
+Predicted 4 Actual 5 
+Predicting 224 321
+Predicted 2 Actual 2 
+Predicting 215 185
+Predicted 4 Actual 4 
+Predicting 479 295
+Predicted 2 Actual 1 
+Predicting 22 118
+Predicted 3 Actual 4 
+Predicting 393 380
+Predicted 2 Actual 2 
+Predicting 484 73
+Predicted 4 Actual 4 
+Predicting 58 269
+Predicted 4 Actual 4 
+Predicting 133 243
+Predicted 3 Actual 3 
+Predicting 339 498
+Predicted 3 Actual 4 
+Predicting 304 278
+Predicted 3 Actual 4 
+Predicting 58 249
+Predicted 4 Actual 4 
+Predicting 239 168
+Predicted 4 Actual 4 
+Predicting 308 116
+Predicted 4 Actual 4 
+Predicting 49 70
+Predicted 2 Actual 2 
+Predicting 327 181
+Predicted 4 Actual 4 
+Predicting 417 421
+Predicted 3 Actual 4 
+Predicting 71 197
+Predicted 4 Actual 5 
+Predicting 478 100
+Predicted 4 Actual 5 
+Predicting 312 265
+Predicted 3 Actual 1 
+Predicting 211 230
+Predicted 3 Actual 3 
+Predicting 441 7
+Predicted 3 Actual 4 
+Predicting 128 161
+Predicted 3 Actual 5 
+Predicting 286 408
+Predicted 3 Actual 4 
+Predicting 181 124
+Predicted 1 Actual 1 
+Predicting 291 212
+Predicted 4 Actual 4 
+Predicting 402 258
+Predicted 3 Actual 4 
+Predicting 399 233
+Predicted 3 Actual 3 
+Predicting 391 132
+Predicted 4 Actual 4 
+Predicting 159 72
+Predicted 3 Actual 3 
+Predicting 311 428
+Predicted 4 Actual 4 
+Predicting 430 276
+Predicted 3 Actual 1 
+Predicting 382 334
+Predicted 4 Actual 5 
+Predicting 496 432
+Predicted 3 Actual 4 
+Predicting 84 70
+Predicted 4 Actual 5 
+Predicting 490 302
+Predicted 3 Actual 4 
+Predicting 324 123
+Predicted 4 Actual 4 
+Predicting 488 294
+Predicted 4 Actual 4 
+Predicting 394 28
+Predicted 3 Actual 4 
+Predicting 58 11
+Predicted 4 Actual 5 
+Predicting 456 324
+Predicted 4 Actual 4 
+Predicting 16 178
+Predicted 4 Actual 5 
+Predicting 358 174
+Predicted 3 Actual 1 
+Predicting 25 25
+Predicted 4 Actual 5 
+Predicting 130 374
+Predicted 4 Actual 4 
+Predicting 135 230
+Predicted 3 Actual 3 
+Predicting 455 12
+Predicted 3 Actual 3 
+Predicting 2 290
+Predicted 4 Actual 3 
+Predicting 98 173
+Predicted 3 Actual 1 
+Predicting 498 50
+Predicted 3 Actual 4 
+Predicting 301 403
+Predicted 3 Actual 4 
+Predicting 393 303
+Predicted 3 Actual 4 
+Predicting 41 357
+Predicted 4 Actual 4 
+Predicting 497 423
+Predicted 3 Actual 3 
+Predicting 306 303
+Predicted 4 Actual 3 
+Predicting 468 285
+Predicted 4 Actual 4 
+Predicting 311 432
+Predicted 3 Actual 4 
+Predicting 184 496
+Predicted 4 Actual 5 
+Predicting 280 156
+Predicted 4 Actual 4 
+Predicting 43 5
+Predicted 4 Actual 4 
+Predicting 314 71
+Predicted 4 Actual 5 
+Predicting 207 196
+Predicted 3 Actual 4 
+Predicting 109 405
+Predicted 3 Actual 5 
+Predicting 273 340
+Predicted 3 Actual 3 
+Predicting 429 229
+Predicted 2 Actual 2 
+Predicting 362 258
+Predicted 3 Actual 4 
+Predicting 303 200
+Predicted 2 Actual 4 
+Predicting 443 12
+Predicted 4 Actual 5 
+Predicting 326 136
+Predicted 4 Actual 4 
+Predicting 408 315
+Predicted 4 Actual 5 
+Predicting 407 62
+Predicted 3 Actual 3 
+Predicting 90 300
+Predicted 3 Actual 3 
+Predicting 339 144
+Predicted 3 Actual 3 
+Predicting 78 301
+Predicted 3 Actual 5 
+Predicting 480 114
+Predicted 4 Actual 4 
+Predicting 64 127
+Predicted 4 Actual 5 
+Predicting 385 143
+Predicted 3 Actual 3 
+Predicting 311 216
+Predicted 4 Actual 5 
+Predicting 90 454
+Predicted 3 Actual 2 
+Predicting 248 257
+Predicted 4 Actual 3 
+Predicting 331 475
+Predicted 4 Actual 3 
+Predicting 244 317
+Predicted 4 Actual 5 
+Predicting 330 95
+Predicted 5 Actual 5 
+Predicting 416 322
+Predicted 3 Actual 3 
+Predicting 130 291
+Predicted 4 Actual 4 
+Predicting 334 302
+Predicted 4 Actual 5 
+Predicting 279 166
+Predicted 2 Actual 4 
+Predicting 474 210
+Predicted 4 Actual 5 
+Predicting 249 175
+Predicted 4 Actual 4 
+Predicting 144 91
+Predicted 3 Actual 2 
+Predicting 387 289
+Predicted 2 Actual 1 
+Predicting 28 449
+Predicted 3 Actual 2 
+Predicting 308 231
+Predicted 4 Actual 3 
+Predicting 311 218
+Predicted 4 Actual 4 
+Predicting 22 399
+Predicted 2 Actual 4 
+Predicting 220 340
+Predicted 4 Actual 4 
+Predicting 406 238
+Predicted 3 Actual 2 
+Predicting 276 143
+Predicted 3 Actual 5 
+Predicting 305 287
+Predicted 3 Actual 3 
+Predicting 320 410
+Predicted 4 Actual 4 
+Predicting 223 173
+Predicted 4 Actual 5 
+Predicting 283 71
+Predicted 4 Actual 4 
+Predicting 152 157
+Predicted 4 Actual 5 
+Predicting 299 318
+Predicted 2 Actual 4 
+Predicting 121 124
+Predicted 4 Actual 5 
+Predicting 276 229
+Predicted 2 Actual 3 
+Predicting 330 44
+Predicted 5 Actual 5 
+Predicting 13 17
+Predicted 1 Actual 1 
+Predicting 398 154
+Predicted 3 Actual 2 
+Predicting 406 496
+Predicted 3 Actual 4 
+Predicting 311 322
+Predicted 4 Actual 4 
+Predicting 263 480
+Predicted 4 Actual 3 
+Predicting 450 91
+Predicted 4 Actual 4 
+Predicting 256 387
+Predicted 4 Actual 4 
+Predicting 456 95
+Predicted 4 Actual 4 
+Predicting 59 202
+Predicted 4 Actual 4 
+Predicting 311 98
+Predicted 4 Actual 5 
+Predicting 222 162
+Predicted 1 Actual 2 
+Predicting 342 47
+Predicted 4 Actual 5 
+Predicting 387 206
+Predicted 4 Actual 4 
+Predicting 370 269
+Predicted 4 Actual 5 
+Predicting 472 366
+Predicted 4 Actual 4 
+Predicting 56 237
+Predicted 3 Actual 5 
+Predicting 417 222
+Predicted 2 Actual 3 
+Predicting 383 315
+Predicted 4 Actual 5 
+Predicting 426 196
+Predicted 4 Actual 4 
+Predicting 334 12
+Predicted 4 Actual 5 
+Predicting 458 304
+Predicted 4 Actual 4 
+Predicting 378 318
+Predicted 3 Actual 5 
+Predicting 457 190
+Predicted 4 Actual 5 
+Predicting 491 124
+Predicted 4 Actual 5 
+Predicting 473 124
+Predicted 4 Actual 4 
+Predicting 1 149
+Predicted 1 Actual 2 
+Predicting 64 227
+Predicted 4 Actual 3 
+Predicting 424 1
+Predicted 2 Actual 1 
+Predicting 144 190
+Predicted 4 Actual 5 
+Predicting 308 204
+Predicted 4 Actual 4 
+Predicting 448 301
+Predicted 2 Actual 1 
+Predicting 260 350
+Predicted 5 Actual 4 
+Predicting 427 289
+Predicted 5 Actual 5 
+Predicting 178 200
+Predicted 3 Actual 3 
+Predicting 274 150
+Predicted 4 Actual 5 
+Predicting 38 420
+Predicted 5 Actual 5 
+Predicting 101 405
+Predicted 3 Actual 4 
+Predicting 236 273
+Predicted 3 Actual 1 
+Predicting 238 476
+Predicted 3 Actual 3 
+Predicting 498 100
+Predicted 3 Actual 3 
+Predicting 363 174
+Predicted 4 Actual 4 
+Predicting 277 129
+Predicted 4 Actual 4 
+Predicting 487 455
+Predicted 3 Actual 2 
+Predicting 109 395
+Predicted 3 Actual 3 
+Predicting 265 273
+Predicted 3 Actual 5 
+Predicting 301 105
+Predicted 3 Actual 3 
+Predicting 308 96
+Predicted 4 Actual 4 
+Predicting 44 211
+Predicted 4 Actual 4 
+Predicting 454 472
+Predicted 3 Actual 3 
+Predicting 109 209
+Predicted 2 Actual 1 
+Predicting 135 55
+Predicted 4 Actual 4 
+Predicting 394 282
+Predicted 3 Actual 3 
+Predicting 305 12
+Predicted 4 Actual 5 
+Predicting 99 300
+Predicted 3 Actual 4 
+Predicting 104 325
+Predicted 1 Actual 1 
+Predicting 412 195
+Predicted 4 Actual 4 
+Predicting 42 423
+Predicted 4 Actual 5 
+Predicting 1 268
+Predicted 4 Actual 5 
+Predicting 44 135
+Predicted 4 Actual 5 
+Predicting 22 172
+Predicted 4 Actual 4 
+Predicting 372 23
+Predicted 4 Actual 5 
+Predicting 487 367
+Predicted 3 Actual 3 
+Predicting 399 48
+Predicted 3 Actual 3 
+Predicting 347 216
+Predicted 2 Actual 3 
+Predicting 308 175
+Predicted 4 Actual 5 
+Predicting 5 181
+Predicted 4 Actual 5 
+Predicting 494 194
+Predicted 4 Actual 4 
+Predicting 287 200
+Predicted 4 Actual 4 
+Predicting 13 14
+Predicted 4 Actual 4 
+Predicting 406 482
+Predicted 4 Actual 5 
+Predicting 295 22
+Predicted 4 Actual 4 
+Predicting 393 173
+Predicted 3 Actual 5 
+Predicting 128 121
+Predicted 4 Actual 4 
+Predicting 99 210
+Predicted 4 Actual 5 
+Predicting 181 323
+Predicted 1 Actual 2 
+Predicting 236 199
+Predicted 4 Actual 4 
+Predicting 121 156
+Predicted 4 Actual 4 
+Predicting 1 141
+Predicted 2 Actual 3 
+Predicting 474 283
+Predicted 4 Actual 3 
+Predicting 368 320
+Predicted 3 Actual 5 
+Predicting 91 136
+Predicted 3 Actual 4 
+Predicting 45 24
+Predicted 3 Actual 3 
+Predicting 292 1
+Predicted 4 Actual 4 
+Predicting 84 4
+Predicted 4 Actual 3 
+Predicting 38 202
+Predicted 1 Actual 2 
+Predicting 49 80
+Predicted 2 Actual 1 
+Predicting 397 192
+Predicted 5 Actual 5 
+Predicting 350 427
+Predicted 5 Actual 5 
+Predicting 407 100
+Predicted 4 Actual 5 
+Predicting 30 319
+Predicted 4 Actual 4 
+Predicting 156 180
+Predicted 4 Actual 5 
+Predicting 183 257
+Predicted 3 Actual 2 
+Predicting 437 87
+Predicted 3 Actual 3 
+Predicting 368 292
+Predicted 3 Actual 4 
+Predicting 234 48
+Predicted 3 Actual 2 
+Predicting 222 7
+Predicted 3 Actual 5 
+Predicting 495 145
+Predicted 4 Actual 4 
+Predicting 51 50
+Predicted 4 Actual 5 
+Predicting 130 272
+Predicted 4 Actual 5 
+Predicting 297 338
+Predicted 3 Actual 2 
+Predicting 207 12
+Predicted 3 Actual 3 
+Predicting 334 228
+Predicted 4 Actual 5 
+Predicting 481 479
+Predicted 4 Actual 4 
+Predicting 200 392
+Predicted 4 Actual 5 
+Predicting 246 97
+Predicted 2 Actual 3 
+Predicting 128 483
+Predicted 4 Actual 5 
+Predicting 6 268
+Predicted 3 Actual 3 
+Predicting 180 67
+Predicted 3 Actual 1 
+Predicting 194 90
+Predicted 3 Actual 3 
+Predicting 325 286
+Predicted 3 Actual 4 
+Predicting 59 477
+Predicted 4 Actual 3 
+Predicting 378 323
+Predicted 3 Actual 3 
+Predicting 18 485
+Predicted 4 Actual 5 
+Predicting 422 260
+Predicted 4 Actual 3 
+Predicting 397 313
+Predicted 4 Actual 4 
+Predicting 74 351
+Predicted 4 Actual 3 
+Predicting 56 79
+Predicted 4 Actual 4 
+Predicting 315 273
+Predicted 4 Actual 3 
+Predicting 151 211
+Predicted 4 Actual 5 
+Predicting 59 276
+Predicted 4 Actual 5 
+Predicting 429 182
+Predicted 3 Actual 4 
+Predicting 95 24
+Predicted 3 Actual 3 
+Predicting 377 268
+Predicted 4 Actual 3 
+Predicting 62 474
+Predicted 3 Actual 4 
+Predicting 387 268
+Predicted 3 Actual 3 
+Predicting 429 165
+Predicted 4 Actual 5 
+Predicting 161 177
+Predicted 2 Actual 2 
+Predicting 499 427
+Predicted 5 Actual 5 
+Predicting 250 195
+Predicted 3 Actual 2 
+Predicting 354 175
+Predicted 4 Actual 5 
+Predicting 271 134
+Predicted 2 Actual 3 
+Predicting 13 49
+Predicted 4 Actual 4 
+Predicting 201 181
+Predicted 3 Actual 2 
+Predicting 79 100
+Predicted 4 Actual 5 
+Predicting 469 173
+Predicted 4 Actual 4 
+Predicting 70 403
+Predicted 3 Actual 4 
+Predicting 85 325
+Predicted 3 Actual 2 
+Predicting 72 210
+Predicted 3 Actual 4 
+Predicting 298 274
+Predicted 3 Actual 3 
+Predicting 276 3
+Predicted 3 Actual 3 
+Predicting 123 462
+Predicted 4 Actual 4 
+Predicting 94 218
+Predicted 3 Actual 3 
+Predicting 130 350
+Predicted 3 Actual 4 
+Predicting 281 308
+Predicted 3 Actual 1 
+Predicting 195 384
+Predicted 2 Actual 2 
+Predicting 416 7
+Predicted 4 Actual 4 
+Predicting 394 173
+Predicted 3 Actual 5 
+Predicting 189 8
+Predicted 4 Actual 5 
+Predicting 271 117
+Predicted 2 Actual 3 
+Predicting 271 220
+Predicted 3 Actual 3 
+Predicting 101 181
+Predicted 3 Actual 4 
+Predicting 279 230
+Predicted 4 Actual 4 
+Predicting 479 58
+Predicted 4 Actual 4 
+Predicting 8 431
+Predicted 2 Actual 2 
+Predicting 186 333
+Predicted 2 Actual 3 
+Predicting 379 8
+Predicted 4 Actual 5 
+Predicting 57 411
+Predicted 3 Actual 4 
+Predicting 453 471
+Predicted 3 Actual 4 
+Predicting 295 183
+Predicted 4 Actual 1 
+Predicting 279 147
+Predicted 4 Actual 4 
+Predicting 10 404
+Predicted 4 Actual 4 
+Predicting 199 93
+Predicted 2 Actual 4 
+Predicting 233 99
+Predicted 4 Actual 3 
+Predicting 455 65
+Predicted 3 Actual 3 
+Accuracy Percentage 91.600000
