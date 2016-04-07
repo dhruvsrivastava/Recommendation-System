@@ -125,10 +125,10 @@ def UserPearsonCorrelation(xuser , yuser):
 
 
 
-def ItemWeightedSum(points , user , neighbourCount):
+def ItemWeightedSum(points , user , neighborCount):
 	numerator = 0
 	denominator = 0
-	for i in range(min(neighbourCount , len(points))):
+	for i in range(min(neighborCount , len(points))):
 		# print "%f %d " %(points[i][0] , points[i][1])
 		numerator += points[i][0] * matrix[user][points[i][1]] 
 		denominator += abs(points[i][0])
@@ -138,12 +138,12 @@ def ItemWeightedSum(points , user , neighbourCount):
 
 
 
-def UserWeightedSum(points , item , neighbourCount):
+def UserWeightedSum(points , item , neighborCount):
 	numerator = 0
 	denominator = 0
-	neighbourCount = int(neighbourCount)
-	print "neighbourCount %d " %(neighbourCount)
-	for i in range(min(neighbourCount , len(points))):
+	neighborCount = int(neighborCount)
+	print "neighborCount %d " %(neighborCount)
+	for i in range(min(neighborCount , len(points))):
 		numerator += points[i][0] * matrix[points[i][1]][item]
 		denominator += abs(points[i][0])
 	if denominator == 0:
@@ -153,7 +153,7 @@ def UserWeightedSum(points , item , neighbourCount):
 
 
 #Item-Item Collaborative Filtering
-def IICF(user , item , neighbourCount):
+def IICF(user , item , neighborCount):
 	#Predict rating for user "user" for item "item"
 	#iterate over all items that user has voted upon
 	d = []
@@ -164,29 +164,25 @@ def IICF(user , item , neighbourCount):
 	# print ("movies voted by %d is %d" %(user , len(d)) )
 	d.sort(reverse = True)
 	# print d
-	return ItemWeightedSum(d , user , neighbourCount)
+	return ItemWeightedSum(d , user , neighborCount)
 
 
 
 #User-User Collaborative Filtering
-def UUCF(user , item , neighbourCount):
+def UUCF(user , item , neighborCount):
 	rated_users = []	#list of all users that have rated "item"
 	for i in range(len(matrix)):
 		if matrix[i][item] > 0 and i != user:
 			rated_users.append( ( UserPearsonCorrelation(user , i) , i ) )
 	rated_users.sort(reverse = True)
-	return UserWeightedSum(rated_users , item , neighbourCount)			
+	return UserWeightedSum(rated_users , item , neighborCount)			
 
 
 
 
-#The test function produces random points in the data matrice and predicts the rating that the algorithm would give it and compares it to the actual rating
-#Prediction is considered to be accurate if it has a maximum absolute error of 1
-def Randomtest(neighbourCount):
-	correct = float(0)
-	incorrect = float(0)
+#The RandomGenerate function produces random points in the data matrix
+def RandomGenerate():
 	counter = 0
-	invalid = 0
 	file = open("testpoints" , "w")
 	while counter < 100:
 		print "counter %d" %(counter)
@@ -194,36 +190,13 @@ def Randomtest(neighbourCount):
 		y = int(random.random() * 500)
 		if matrix[x][y] == 0:
 			continue
-		rating =  UUCF(x , y , neighbourCount)
+		rating =  UUCF(x , y , 7)
 		if rating >= 0.5:
+			file.write(str(x) + " " + str(y) + "\n")
 			counter += 1
-			# print "before %f" %(rating)
-			r = int(rating)
-			if rating - r >= 0.5:
-				r += 1
-			f = 0
-			# print "Predicting %d %d" %(x , y)
-			# print "Predicted %d Actual %d " %(r , matrix[x][y])
-			if abs(r - matrix[x][y]) == 0:
-				correct += 1
-				f = 1
-				# print "correct found"
-			else:
-				incorrect += 1
-			file.write(str(x) + " " + str(y) + " " + str(f) + "\n")
-		else:
-			invalid += 1
-	print str(neighbourCount) + " " + str(incorrect) + "\n"
-	# ecfile.write(str(int(neighbourCount)) + " " + str(int(incorrect)) + "\n")
-	incorrect += correct
-	correct *= 100
-	if incorrect > 0:
-		print "Accuracy Percentage %f" %(correct / incorrect)
-	# print "Invalid entries %d" %(invalid)
 
 
-
-def test(neighbourCount):
+def test(neighborCount):
 	correct = float(0)
 	incorrect = float(0)
 	counter = 0
@@ -235,13 +208,13 @@ def test(neighbourCount):
 		x = points[0]
 		y = points[1]
 		output_file.write( str(x) + " " + str(y) + " " )
-		rating =  UUCF(x , y , neighbourCount)
+		rating =  IICF(x , y , neighborCount)
 		if rating >= 0.5:
 			counter += 1
 			r = int(rating)
 			if rating - r >= 0.5:
 				r += 1
-			if abs(r - matrix[x][y]) == 0:
+			if abs(r - matrix[x][y]) <= 1:
 				correct += 1
 				output_file.write("0\n")
 			else:
@@ -249,25 +222,61 @@ def test(neighbourCount):
 				incorrect += 1
 		else:
 			invalid += 1
-	# ecfile.write(str(int(neighbourCount)) + " " + str(int(incorrect)) + "\n")
+	# ecfile.write(str(int(neighborCount)) + " " + str(int(incorrect)) + "\n")
 	incorrect += correct
 	correct *= 100
 	if incorrect > 0:
 		print "Accuracy Percentage %f" %(correct / incorrect)
 
+def linetest(neighborCount , ecfile):
+	correct = float(0)
+	incorrect = float(0)
+	counter = 0
+	invalid = 0
+	input_file = open("testpoints" , "r")
+	for line in input_file:
+		points = map(int , line.split(' '))
+		x = points[0]
+		y = points[1]
+		rating =  IICF(x , y , neighborCount)
+		if rating >= 0.5:
+			counter += 1
+			r = int(rating)
+			if rating - r >= 0.5:
+				r += 1
+			if abs(r - matrix[x][y]) <= 1:
+				correct += 1
+			else:
+				incorrect += 1
+		else:
+			invalid += 1
+	ecfile.write(str(int(neighborCount)) + " " + str(int(incorrect)) + "\n")
+	incorrect += correct
+	correct *= 100
+	if incorrect > 0:
+		print "Accuracy Percentage %f" %(correct / incorrect)
+		return (correct / incorrect)
+
+
 def linegraph():
-	#vary neighbourhood of KNN algorithm
-	neighbourCount = 20
+	#vary neighborhood of KNN algorithm
+	neighborCount = 20
+	cnt = 7
+	ans = 0
 	ecfile = open("ecfile" , "w")
-	for i in xrange(1 , neighbourCount + 1):
-		test(i , ecfile)
+	for i in xrange(1 , neighborCount + 1):
+		x = linetest(i , ecfile)
+		if x > ans:
+			ans = x
+			cnt = i 
 	ecfile.close()
+	test(cnt)
 
 def main():
 	read()
 	metrics()
-	# linegraph()
-	test(5)
+	RandomGenerate()
+	linegraph()
 	
 	
 
