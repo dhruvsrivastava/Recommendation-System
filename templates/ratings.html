@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Test</title>
+        <script type="text/javascript" 
+                src="{{ url_for('static', filename='d3.js') }}">
+        </script>
+
+        <style type="text/css">
+            .axis path,
+            .axis line {
+                fill: none;
+                stroke: black;
+                shape-rendering: crispEdges;
+            }
+
+            .axis text {
+                font-family: sans-serif;
+                font-size: 11px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <script type="text/javascript">
+
+            var h = 500;
+            var w = 1000;
+            var svg = d3.select("body")
+                        .append("svg")
+                        .attr("height" , h + 50)
+                        .attr("width" , w + 50);
+
+            var dataset = {{ data|safe }};
+            var lendata = dataset.length;
+            var maxval = 0;
+
+            for (var i = 0; i < dataset.length; i++)
+            	dataset[i] = parseInt(dataset[i] , 10);
+            // alert(typeof(dataset));
+            // for (var i = 0; i < dataset.length; i++)
+            	// dataset[i] = int(dataset[])
+            for (var i = 0; i < dataset.length; i++) {
+                if (dataset[i] > maxval)
+                    maxval = dataset[i];
+            }
+
+            svg.selectAll("rect")
+            .data(dataset)
+            .enter()
+            .append("rect")
+            .attr("y" , function(d) {
+                return h - (d / maxval) * h;
+            })
+            .attr("x" ,  function(d , i) {
+                return i * (w / dataset.length);
+            })
+            .attr("width", (w / dataset.length) - 1)
+            .attr("height", function(d) {
+                    return (d / maxval) * h;
+            })
+            .attr("fill", function(d) {
+                return "rgb(0, 0, " + (d * 10) + ")";
+            });
+            svg.selectAll("text")
+               .data(dataset)
+               .enter()
+               .append("text")
+               .text(function(d) {
+                    return d;
+               })
+               .attr("x" , function(d , i) {
+                    return i * (w / dataset.length) + (w / dataset.length - 1) / 2;
+               })
+               .attr("y" , function(d) {
+                    return (h - (d / maxval) * h) + ((d / maxval) * h) / 2 ;
+               })
+               .attr("text-anchor" , "middle")
+               .attr("fill" , "white");
+
+
+            //Create scale functions
+            var xScale = d3.scale.linear()
+                           .domain([0, 5])
+                           .range([0, w]);
+            var xAxis = d3.svg
+                          .axis()
+                          .scale(xScale)
+                          .orient("bottom");
+            svg.append("g")
+               .attr("class" , "axis")
+               .attr("transform", "translate(0," + (h) + ")")
+               .attr("fill" , "black")
+               .call(xAxis);
+
+        </script>
+
+        <h2> User Rating Distribution</h2>
+        <h4> X - Axis : Rating Value </h4>
+        <h4> Y - Axis : User Rating Count </h4>
+
+    </body>
+</html>     
